@@ -1,0 +1,26 @@
+﻿  png.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\png.c(341,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngpread.c(97,26): warning C4267: '+=': conversion from 'size_t' to 'png_byte', possible loss of data
+  pngread.c
+  pngrio.c
+  pngrtran.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngrtran.c(1040,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrutil.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngrutil.c(1400,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngwrite.c(239,11): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngwtran.c
+  pngwutil.c
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngwutil.c(617,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\pure3d\lib\libpng\pngwutil.c(760,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\pure3d\build\win32\obj\libpng\Debug\libpng.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\pure3d\build\lib\pngwd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(libpng) does not match the Library's OutputFile property value (pngwd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  libpng.vcxproj -> D:\CPP\Simpsons\game\libs\pure3d\build\win32\obj\libpng\Debug\libpng.lib
