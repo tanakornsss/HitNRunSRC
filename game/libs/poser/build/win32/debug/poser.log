@@ -1,0 +1,9 @@
+﻿  joint.cpp
+  pose.cpp
+  posedriver.cpp
+  poseengine.cpp
+  transform.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\poser\build\win32\debug\poser.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\poser\lib\poserwd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(poser) does not match the Library's OutputFile property value (poserwd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  poser.vcxproj -> D:\CPP\Simpsons\game\libs\poser\build\win32\debug\poser.lib
