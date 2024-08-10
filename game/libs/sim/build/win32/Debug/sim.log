@@ -1,0 +1,64 @@
+﻿  collision.cpp
+  collisionanalyser.cpp
+  collisionanalyserdata.cpp
+  collisionanalyserdataUID.cpp
+  collisionanalyserevent.cpp
+  collisionanalyserinfo.cpp
+  collisionanalysertranslator.cpp
+  collisiondetector.cpp
+  collisiondisplay.cpp
+  collisionmanager.cpp
+  collisionobject.cpp
+  collisionvolume.cpp
+  impulsebasedcollisionsolver.cpp
+  proximitydetection.cpp
+  subcollisiondetector.cpp
+  arraymath.cpp
+  dline2.cpp
+  impulselink.cpp
+  kalmann.cpp
+  largesymmetricmatrix.cpp
+D:\CPP\Simpsons\game\libs\sim\simcommon\largesymmetricmatrix.cpp(201,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simcommon\largesymmetricmatrix.cpp(205,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simcommon\largesymmetricmatrix.cpp(210,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simcommon\largesymmetricmatrix.cpp(214,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  physicsproperties.cpp
+  sbmatrix.cpp
+  simconstraint.cpp
+  simenvironment.cpp
+  simmath.cpp
+  simstate.cpp
+  simstatearticulated.cpp
+  simstateflexible.cpp
+  simstatetarget.cpp
+  simtarget.cpp
+  simulatedobject.cpp
+  simutility.cpp
+D:\CPP\Simpsons\game\libs\sim\simcommon\simutility.cpp(489,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simcommon\simutility.cpp(502,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simcommon\simutility.cpp(543,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  skeletoninfo.cpp
+  symmatrix.cpp
+  tlist.cpp
+  trackerjointmodifier.cpp
+  trajectoryextrapolator.cpp
+  articulatedphysicsobject.cpp
+  physicsjoint.cpp
+  physicsobject.cpp
+  Generating Code...
+  Compiling...
+  restingdetector.cpp
+  virtualcm.cpp
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(133,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(135,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(140,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(146,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(148,17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(153,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\sim\simphysics\virtualcm.cpp(203,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\sim\build\win32\Debug\sim.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\sim\lib\simwd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(sim) does not match the Library's OutputFile property value (simwd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  sim.vcxproj -> D:\CPP\Simpsons\game\libs\sim\build\win32\Debug\sim.lib
