@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{941f5141-2eae-46b6-8007-a4227f12782d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pch">
+      <UniqueIdentifier>{a84ed420-bfc4-4114-9ba2-a1383f813271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic">
+      <UniqueIdentifier>{e6c4d853-3d22-4c36-a487-d02aecc130d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic\framework">
+      <UniqueIdentifier>{8c1b3b2a-e63e-4871-8eac-bf609ed04ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic\schema">
+      <UniqueIdentifier>{06456f81-4e72-4bb9-8a98-7f5787ca6bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic\resource">
+      <UniqueIdentifier>{e7c28caf-8659-49f8-a768-ee65d3bbf520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic\music">
+      <UniqueIdentifier>{b5fff3a9-ee93-43a2-ba19-97e375e179e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\radmusic\sequence">
+      <UniqueIdentifier>{772be8c2-630f-4987-abec-f3a63fa8ce0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{6e820bcb-e26d-4d3e-86e8-b802b9814f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ods">
+      <UniqueIdentifier>{6eb0bf99-6272-42b6-b1bb-d1ad6ae00165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{dcaeec10-5941-485e-b7ba-e4e89bcd8192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\memory">
+      <UniqueIdentifier>{4c5fd749-0183-4944-9674-9bc063966a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\radmusic">
+      <UniqueIdentifier>{feb94bcd-70ea-46c8-bfc8-12af03da0fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\ods">
+      <UniqueIdentifier>{d35f39de-9954-4087-881c-1a4a74ea2978}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\pch\pch.cpp">
+      <Filter>src\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\framework\framework.cpp">
+      <Filter>src\radmusic\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\schema\schema_util.cpp">
+      <Filter>src\radmusic\schema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\resource\resource_manager.cpp">
+      <Filter>src\radmusic\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_composition.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_engine.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_engine_state_fade.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_engine_state_steady.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_engine_state_stitch.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_engine_state_stopped.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\music\music_performance.cpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\sequence\sequence_player.cpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\sequence\sequence_region.cpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\radmusic\sequence\sequence_stream_graph.cpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\memory\memory.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ods\ods.cpp">
+      <Filter>src\ods</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ods\ods_codegen.cpp">
+      <Filter>src\ods</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ods\ods_memory.cpp">
+      <Filter>src\ods</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ods\ods_parser.cpp">
+      <Filter>src\ods</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ods\ods_util.cpp">
+      <Filter>src\ods</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\pch\pch.hpp">
+      <Filter>src\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\schema\schema.hpp">
+      <Filter>src\radmusic\schema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\schema\schema_util.hpp">
+      <Filter>src\radmusic\schema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\resource\resource_manager.hpp">
+      <Filter>src\radmusic\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_composition.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_engine.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_engine_state_fade.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_engine_state_steady.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_engine_state_stitch.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_engine_state_stopped.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\music\music_performance.hpp">
+      <Filter>src\radmusic\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\sequence\sequence_player.hpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\sequence\sequence_region.hpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\radmusic\sequence\sequence_stream_graph.hpp">
+      <Filter>src\radmusic\sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\memory\memory.hpp">
+      <Filter>inc\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\radmusic\radmusic.hpp">
+      <Filter>inc\radmusic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\radmusic\schema.hpp">
+      <Filter>inc\radmusic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ods\ods.hpp">
+      <Filter>inc\ods</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\ods\parser.hpp">
+      <Filter>inc\ods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\releasenotes.txt" />
+  </ItemGroup>
+</Project>
