@@ -1,0 +1,92 @@
+﻿  FeApp.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeApp.cpp(603,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeApp.cpp(765,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeBoundedDrawable.cpp
+  FeChunkHandler.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(698,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(699,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(705,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(706,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(707,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeChunkHandler.cpp(708,11): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  FeDrawable.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\FeDrawable.cpp(637,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeDrawable.cpp(667,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeDrawable.cpp(697,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeEntity.cpp
+  FeGroup.cpp
+  FeLanguage.cpp
+  FeLayer.cpp
+  FeLoaders.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeLoaders.cpp(1263,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeMovie.cpp
+  FeOwner.cpp
+  FePage.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeParent.cpp
+  FePolygon.cpp
+  FeProject.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FePure3dObject.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeScreen.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeScreen.cpp(362,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeSprite.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeSprite.cpp(609,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeText.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\FeText.cpp(888,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FeTextBible.cpp
+  Generating Code...
+  Compiling...
+  FeTextStyle.cpp
+  FeResourceManager.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\resourcemanager\FeResourceManager.h(193,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(100,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(105,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(186,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(194,25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(199,25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(203,25): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(1009,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\ResourceManager\FeResourceManager.cpp(1029,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  App.cpp
+  pcstring.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(131,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(188,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(221,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(244,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(323,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(346,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(368,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(958,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\strings\pcstring.cpp(1186,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  stricmp.cpp
+  UnicodeString.cpp
+  tLinearTable.cpp
+  AsyncFileLoader.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\AsyncFileLoader.cpp(211,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\AsyncFileLoader.cpp(222,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BufferReader.cpp
+  debugMessages.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\debugMessages.cpp(204,9): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\debugMessages.cpp(205,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\debugMessages.cpp(231,9): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\utility\debugMessages.cpp(233,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  EnumConversion.cpp
+  XMLParser.cpp
+D:\CPP\Simpsons\game\libs\scrooby\src\xml\XMLParser.cpp(493,25): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\xml\XMLParser.cpp(514,43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\xml\XMLParser.cpp(535,42): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\xml\XMLParser.cpp(541,27): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\scrooby\src\xml\XMLParser.cpp(547,46): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XMLTree.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\scrooby\build\win32\Debug\ScroobyLib.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\scrooby\lib\scroobywd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(ScroobyLib) does not match the Library's OutputFile property value (scroobywd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  ScroobyLib.vcxproj -> D:\CPP\Simpsons\game\libs\scrooby\build\win32\Debug\ScroobyLib.lib
