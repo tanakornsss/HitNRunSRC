@@ -1,0 +1,57 @@
+﻿  pch.cpp
+  radsoundobject.cpp
+  radsoundupdatableobject.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  audioformat.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  banner.cpp
+  memoryregion.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  radsoundfile.cpp
+  rolloff.cpp
+  buffer.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  bufferloader.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  effect.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  listener.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  positionalgroup.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  radsoundwin.cpp
+  system.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  voice.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  radsoundmath.cpp
+  buffereddatasource.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  clip.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  clipplayer.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  datacache.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  Generating Code...
+  Compiling...
+  memorydatasource.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  memoryspaceobject.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  radicaladpcm.cpp
+D:\CPP\Simpsons\game\libs\radsound\src\radsound\radicaladpcm.hpp(70,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  rsdfiledatasource.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  stitcheddatasource.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  streamplayer.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  Generating Code...
