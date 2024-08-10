@@ -1,0 +1,12 @@
+﻿  hashtable.cpp
+  inventory.cpp
+  manager.cpp
+  object.cpp
+D:\CPP\Simpsons\game\libs\radcontent\src\radload\manager.cpp(294,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  queue.cpp
+  request.cpp
+  stream.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\radcontent\build\win32\Debug\radcontent.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\radcontent\lib\radcontentwd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(radcontent) does not match the Library's OutputFile property value (radcontentwd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  radcontent.vcxproj -> D:\CPP\Simpsons\game\libs\radcontent\build\win32\Debug\radcontent.lib
