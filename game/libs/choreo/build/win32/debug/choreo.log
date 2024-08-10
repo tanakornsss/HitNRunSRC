@@ -1,0 +1,44 @@
+﻿  animation.cpp
+  bank.cpp
+  basebank.cpp
+  blend.cpp
+  blendtemplate.cpp
+  constants.cpp
+  driver.cpp
+  engine.cpp
+  foot.cpp
+  footblenddriver.cpp
+  footblender.cpp
+  footplanter.cpp
+  internalanimation.cpp
+  jointblenddriver.cpp
+  jointblender.cpp
+  load.cpp
+D:\CPP\Simpsons\game\libs\choreo\src\load.cpp(528,17): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+D:\CPP\Simpsons\game\libs\choreo\src\load.cpp(537,21): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  locomotion.cpp
+  partition.cpp
+  puppet.cpp
+D:\CPP\Simpsons\game\libs\choreo\src\puppet.cpp(1078,46): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+D:\CPP\Simpsons\game\libs\choreo\src\puppet.cpp(1079,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  replay.cpp
+  Generating Code...
+  Compiling...
+  replayblenddriver.cpp
+  replayblender.cpp
+  rig.cpp
+  root.cpp
+  rootblenddriver.cpp
+  rootblender.cpp
+  scriptreader.cpp
+  scriptwriter.cpp
+D:\CPP\Simpsons\game\libs\choreo\src\scriptwriter.cpp(82,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\choreo\src\scriptwriter.cpp(89,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  synchronization.cpp
+  transition.cpp
+  utility.cpp
+D:\CPP\Simpsons\game\libs\choreo\src\utility.cpp(120,14): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(D:\CPP\Simpsons\game\libs\choreo\build\win32\debug\choreo.lib) does not match the Library's OutputFile property value (D:\CPP\Simpsons\game\libs\choreo\lib\choreowd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(choreo) does not match the Library's OutputFile property value (choreowd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  choreo.vcxproj -> D:\CPP\Simpsons\game\libs\choreo\build\win32\debug\choreo.lib
