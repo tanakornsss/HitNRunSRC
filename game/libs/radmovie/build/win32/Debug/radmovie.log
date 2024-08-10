@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  binkmovieplayer.cpp
+D:\CPP\Simpsons\game\libs\radmovie\src\common\binkmovieplayer.hpp(54,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\yvals_core.h(1915,1): error C1189: #error:  /RTCc rejects conformant code, so it is not supported by the C++ Standard Library. Either remove this compiler option, or define _ALLOW_RTCc_IN_STL to suppress this error.
+  binkradfile.cpp
+  binkrenderstrategy.cpp
+D:\CPP\Simpsons\game\libs\radmovie\src\common\binkrenderstrategy.hpp(71,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
