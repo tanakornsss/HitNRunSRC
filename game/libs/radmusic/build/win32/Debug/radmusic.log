@@ -1,7 +1,7 @@
 ﻿  pch.cpp
   memory.cpp
-  ods.cpp
 D:\CPP\Simpsons\game\libs\radmusic\src\memory\memory.cpp(67,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ods.cpp
 D:\CPP\Simpsons\game\libs\radmusic\src\memory\memory.cpp(120,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 D:\CPP\Simpsons\game\libs\radmusic\src\ods\ods.cpp(654,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 D:\CPP\Simpsons\game\libs\radmusic\src\ods\ods.cpp(662,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

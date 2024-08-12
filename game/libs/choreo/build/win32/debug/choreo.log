@@ -14,9 +14,9 @@
   jointblenddriver.cpp
   jointblender.cpp
   load.cpp
+  locomotion.cpp
 D:\CPP\Simpsons\game\libs\choreo\src\load.cpp(528,17): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
 D:\CPP\Simpsons\game\libs\choreo\src\load.cpp(537,21): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
-  locomotion.cpp
   partition.cpp
   puppet.cpp
 D:\CPP\Simpsons\game\libs\choreo\src\puppet.cpp(1078,46): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data

@@ -1,0 +1,304 @@
+﻿  pch.cpp
+  rad1394master.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\rad1394\win32lib\rad1394master.cpp(26,9): warning C4603: 'WINVER': macro is not defined or definition is different after precompiled header use
+D:\CPP\Simpsons\game\libs\radcore\src\rad1394\win32lib\rad1394master.cpp(454,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  directinputcontroller.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\directinputcontroller.hpp(137,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radcontroller\directinputcontroller.cpp(508,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radcontroller\directinputcontroller.cpp(1003,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radcontroller\directinputcontroller.cpp(2120,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  host.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(391,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(427,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(428,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(437,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(438,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(439,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(499,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(652,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(697,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(730,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(731,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(732,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(760,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(761,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(762,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\host.cpp(827,22): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  host1394socket.cpp
+  hostchannel.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\hostchannel.cpp(129,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\hostchannel.cpp(139,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\hostchannel.cpp(152,18): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\hostchannel.cpp(252,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\hostchannel.cpp(1588,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  hosthiosocket.cpp
+  targetconnection.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(401,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(501,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(573,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(602,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(781,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetconnection.cpp(982,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  targetsocketchannel.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetsocketchannel.cpp(127,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetsocketchannel.cpp(251,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetsocketchannel.cpp(1111,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetsocketchannel.cpp(1385,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  targetx.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugcommunication\targetx.cpp(1051,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  consoleclient.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(227,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(722,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(1471,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(1743,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(1801,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugconsole\consoleclient.cpp(1970,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fileserver.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(145,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(146,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(234,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(400,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(441,21): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(642,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(656,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(677,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(700,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(777,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(781,13): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1025,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1033,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1066,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1239,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1243,25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1248,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1256,21): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1279,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1281,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1308,25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1329,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1331,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1359,33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1380,29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1382,29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1465,21): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1789,17): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1904,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1909,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1917,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(1949,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(2046,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(2054,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugfileserver\fileserver.cpp(2080,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  watchclient.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(830,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(847,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(961,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(962,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(1028,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(1055,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(1325,29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(1429,29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebugwatch\watchclient.cpp(1789,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  debug.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebug\debug.cpp(57,16): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\raddebug\debug.cpp(499,44): error C2065: 'i': undeclared identifier
+D:\CPP\Simpsons\game\libs\radcore\src\raddebug\debug.cpp(499,17): error C2660: 'memcpy': function does not take 2 arguments
+  dispatcher.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\raddispatch\dispatcher.cpp(212,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cementer.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\cementer.cpp(24,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  drive.cpp
+  drivethread.cpp
+  file.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\file.cpp(198,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\file.cpp(218,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\file.cpp(294,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  filecache.cpp
+  filesystem.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(278,13): error C2440: 'initializing': cannot convert from 'const char *' to 'char *'
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(282,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(289,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(301,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(309,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(610,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(699,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(706,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(732,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(903,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(907,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(955,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(959,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\filesystem.cpp(1151,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  instancedrive.cpp
+  platformdrives.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\platformdrives.cpp(66,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\platformdrives.cpp(68,5): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  radfile.cpp
+  remotedrive.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(173,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(417,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(546,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(850,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(888,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\remotedrive.cpp(967,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  requests.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\requests.cpp(1032,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\requests.cpp(1055,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\requests.cpp(1081,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\common\requests.cpp(1163,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  win32drive.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(92,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(588,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(589,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(649,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(650,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radfile\win32\win32drive.cpp(749,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  radkey.cpp
+  memmonitorclient.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.hpp(177,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(777,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(886,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(890,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(1092,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(1096,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(1102,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(1106,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.cpp(1146,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  memmonitorclienthelp.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclient.hpp(177,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemorymonitor\memmonitorclienthelp.cpp(672,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  align.cpp
+  binallocator.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\binallocator.hpp(68,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\binallocator.cpp(160,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\binallocator.cpp(180,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  dlheap.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\dlheap.cpp(5499,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\dlheap.cpp(5671,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\dlheap.cpp(5696,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  externalmemoryheap.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(172,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(187,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(192,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryheap.hpp(47,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryheap.cpp(510,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  externalmemoryobject.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(172,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(187,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryobject.hpp(192,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\externalmemoryheap.hpp(47,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  memorymanager.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\memorymanager.cpp(436,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  memoryobject.cpp
+  memorypool.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\memorypool.cpp(251,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  memoryspacewin32.cpp
+  platalloc.cpp
+  staticheap.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\staticheap.cpp(180,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  trackingheap.cpp
+  twowayallocator.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radmemory\twowayallocator.hpp(48,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  objectavltree.cpp
+  objectbtree.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectbtree.hpp(62,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radobjectbtree\objectbtree.cpp(758,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  dynamicarray.cpp
+  objectlist.cpp
+  weakcallbackwrapper.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radobjectlist\weakcallbackwrapper.cpp(41,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  weakinterfacewrapper.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radobjectlist\weakinterfacewrapper.cpp(39,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  object.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radobject\object.cpp(48,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radobject\object.cpp(85,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radobject\object.cpp(191,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  platform.cpp
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(84,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\inc\radobjectlist.hpp(154,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  profiler.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profiler.hpp(44,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profilesample.hpp(43,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profiler.cpp(492,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profiler.cpp(521,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profiler.cpp(522,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  profiler2.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profiler.hpp(44,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profilesample.hpp(43,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  profilesample.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profilesample.hpp(43,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radprofiler\profilesample.cpp(83,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  functionlist.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(98,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(158,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\functionlist.cpp(90,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  remotecommandserver.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(98,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(158,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommandserver.cpp(336,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  remotecommandtarget.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(56,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(98,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommand.hpp(158,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radremotecommand\remotecommandtarget.cpp(385,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  stacktrace.cpp
+  simplestat.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radstats\simplestat.cpp(222,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstats\simplestat.cpp(240,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstats\simplestat.cpp(679,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  statmanager.cpp
+  string.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(50,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(156,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(197,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(235,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(311,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(312,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(320,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(345,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(383,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(411,17): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radstring\string.cpp(431,17): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+  Generating Code...
+  Compiling...
+  textdisplay.cpp
+  mutex.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radthread\mutex.cpp(370,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  semaphore.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radthread\semaphore.cpp(370,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  system.cpp
+  thread.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radthread\thread.cpp(1687,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radthread\thread.cpp(1880,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radthread\thread.cpp(2169,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  stopwatch.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(80,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(85,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(90,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(95,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(100,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(105,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(110,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(115,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\stopwatch.cpp(574,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  time.cpp
+D:\CPP\Simpsons\game\libs\radcore\src\radtime\time.cpp(869,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
