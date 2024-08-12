@@ -115,9 +115,9 @@ struct radSoundStreamPlayer
 		unsigned int m_InitializeInfo_Size;
 		IRadSoundHalAudioFormat::SizeType m_InitializeInfo_SizeType;
 
-		ref< IRadSoundHalMemoryRegion > m_xInitializeInfo_MemRegion;
+		ref_srr< IRadSoundHalMemoryRegion > m_xInitializeInfo_MemRegion;
 
-		ref< IRadSoundHalDataSource > m_xIRadSoundHalDataSource;
-		ref< IRadSoundHalVoice >      m_xIRadSoundHalVoice;
-        ref< IRadString >             m_xIRadString_Name;
+		ref_srr< IRadSoundHalDataSource > m_xIRadSoundHalDataSource;
+		ref_srr< IRadSoundHalVoice >      m_xIRadSoundHalVoice;
+        ref_srr< IRadString >             m_xIRadString_Name;
 };

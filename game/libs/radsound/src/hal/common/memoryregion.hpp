@@ -85,10 +85,10 @@ struct radSoundHalMemoryRegion
 		radSoundHalMemoryRegion * m_pMemoryRegion_Prev;
 		radSoundHalMemoryRegion * m_pMemoryRegion_ChildHead;
 
-		ref< radSoundHalMemoryRegion > m_xRadSoundMemoryRegion_Parent;
+		ref_srr< radSoundHalMemoryRegion > m_xRadSoundMemoryRegion_Parent;
 		
-		ref< IRadMemoryObject > m_xIRadMemoryObject_HeapMemory;
-		ref< IRadMemoryHeap >   m_xIRadMemoryHeap;
+		ref_srr< IRadMemoryObject > m_xIRadMemoryObject_HeapMemory;
+		ref_srr< IRadMemoryHeap >   m_xIRadMemoryHeap;
 
 		static radSoundHalMemoryRegion * s_pRadSoundMemoryRegion_Root;
 		static unsigned int s_Alignment;

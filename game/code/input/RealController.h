@@ -30,7 +30,7 @@ class UserController;
 /*****************************************
     Some typedefs for convienince
  ****************************************/
-typedef ref< IRadController > RADCONTROLLER;
+typedef ref_srr< IRadController > RADCONTROLLER;
 typedef list< IRadControllerInputPoint* > RADINPUTPOINTLIST;
 typedef list< IRadControllerInputPoint* >::iterator INPUTPOINTITER;
 

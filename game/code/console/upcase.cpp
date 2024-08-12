@@ -15,6 +15,7 @@
 //---------------------------------------------------------------------------
 // Includes
 //===========================================================================
+#include <cctype>
 #include <console/upcase.h>
 
 //===========================================================================
@@ -43,10 +44,9 @@
 //===========================================================================
 void Upcase( char* string )
 {
-    size_t length = ::strlen( string );
-    size_t i;
-    for( i = 0; i < length; ++i )
+	const size_t length = ::strlen( string );
+    for( size_t i = 0; i < length; ++i )
     {
-        string[ i ] = toupper( string[ i ] );
+        string[ i ] = static_cast<char>(toupper(string[i])); // Converts char to int.
     }
 }

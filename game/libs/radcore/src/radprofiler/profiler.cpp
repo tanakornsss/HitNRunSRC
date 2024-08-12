@@ -222,7 +222,7 @@ void radProfiler::Terminate( )
 //===========================================================================
 void radProfiler::BeginProfile( const char * pProfileName )
 {
-    ref< radProfileSample > pSample = NULL;
+    ref_srr< radProfileSample > pSample = NULL;
 
     pSample = FindProfileSample( pProfileName );
 
@@ -282,7 +282,7 @@ void radProfiler::BeginProfile( const char * pProfileName )
 //===========================================================================
 void radProfiler::EndProfile( const char * pProfileName )
 {
-    ref< radProfileSample > pSample = NULL;
+    ref_srr< radProfileSample > pSample = NULL;
 
     pSample = FindProfileSample( pProfileName );
 

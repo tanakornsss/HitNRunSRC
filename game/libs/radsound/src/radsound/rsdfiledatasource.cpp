@@ -393,7 +393,7 @@ void radSoundRsdFileDataSource::_StateReadingData( void )
 	m_FramesLeftInFile -= m_StateInfo.m_ReadingDataInfo.m_ReadSizeInFrames;
 	m_StateInfo.m_State = StateInfo::IDLE;
 
-	ref< IRadSoundHalDataSourceCallback > xIRadSoundHalDataSourceCallback = m_refIRadSoundHalDataSourceCallback;
+	ref_srr< IRadSoundHalDataSourceCallback > xIRadSoundHalDataSourceCallback = m_refIRadSoundHalDataSourceCallback;
 	m_refIRadSoundHalDataSourceCallback = NULL;
 
     /* rDebugPrintf( "FDS:[%s]\n\tthis:[0x%x] Calling back for [0x%x] frames callback: [0x%x]\n",

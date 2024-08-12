@@ -94,7 +94,7 @@ void radSoundHalFileHeader::InitializeAudioFormat
 	
 	IRadSoundHalAudioFormat::Encoding encoding = GetEncodingFromChars( m_SoundDataType );
 
-    ref< IRefCount > xIRefCount_CustomData = NULL;
+    ref_srr< IRefCount > xIRefCount_CustomData = NULL;
 
     #if defined RAD_GAMECUBE
 

@@ -94,7 +94,7 @@ private:
     FMVPlayer& operator=( const FMVPlayer& fmvPlayer );
 
     FMVUserInputHandler* m_UserInputHandler;
-    ref< IRadMoviePlayer2 > m_refIRadMoviePlayer;
+    ref_srr< IRadMoviePlayer2 > m_refIRadMoviePlayer;
 
     bool mFrameReady;
     float mElapsedTime; // Elapsed playing time. So you know if you should let the player skip the movie.

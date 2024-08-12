@@ -38,8 +38,8 @@ struct radSoundMemorySpaceObject
         void *             m_pMemory;
         radMemorySpace     m_RadMemorySpace;
         unsigned int       m_NumberOfBytes;
-        ref< IRadMemoryAllocator > m_xIRadMemoryAllocator;
-        ref< IRadString >          m_xIRadString_Identifier;
+        ref_srr< IRadMemoryAllocator > m_xIRadMemoryAllocator;
+        ref_srr< IRadString >          m_xIRadString_Identifier;
 };
 
 #endif

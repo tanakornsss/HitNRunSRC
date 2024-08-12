@@ -615,7 +615,7 @@ void rDebugChannelPrintf( const char * pChannel, const char *fmt, ... )
 // Debug Channel Globals
 //=============================================================================
 
-static ref< IRadObjectList > g_xIOl_EnabledChannels;
+static ref_srr< IRadObjectList > g_xIOl_EnabledChannels;
 static radMemoryAllocator g_DebugChannelAllocator = RADMEMORY_ALLOC_DEFAULT;
 static unsigned int g_DebugChannelInitializeCount = 0;
 

@@ -88,10 +88,10 @@ class radSoundClip
 	    float m_Trim;
 	    IRadSoundClip::State m_State;
 	    
-	    ref< IRadSoundHalMemoryRegion > m_xIRadSoundHalMemoryRegion;
-	    ref< IRadSoundHalBuffer >		m_xIRadSoundHalBuffer;
-		ref< IRadSoundHalDataSource >   m_xIRadSoundHalDataSource;
-        ref< IRadString >               m_xIRadString_Name;
+	    ref_srr< IRadSoundHalMemoryRegion > m_xIRadSoundHalMemoryRegion;
+	    ref_srr< IRadSoundHalBuffer >		m_xIRadSoundHalBuffer;
+		ref_srr< IRadSoundHalDataSource >   m_xIRadSoundHalDataSource;
+        ref_srr< IRadString >               m_xIRadString_Name;
 };
 
 #endif CLIP_HPP

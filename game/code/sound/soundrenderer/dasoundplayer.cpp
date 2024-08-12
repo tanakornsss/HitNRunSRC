@@ -992,7 +992,7 @@ void daSoundClipStreamPlayer::OnStitch( IRadSoundHalDataSource ** ppHds , unsign
         }
         else
         {            
-            ref< IRadSoundRsdFileDataSource > refFds;
+            ref_srr< IRadSoundRsdFileDataSource > refFds;
             m_pAllocatedResource->GetFileInstance( m_AllocResInstanceID )->CreateFileDataSource( & refFds );
         
              *ppHds = refFds;

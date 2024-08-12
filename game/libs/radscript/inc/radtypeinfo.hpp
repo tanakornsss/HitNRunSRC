@@ -178,8 +178,8 @@ public:
     inline void DebugDump( void );
 #endif
 
-    static ref< IRadTypeInfoSystem > s_pTheTypeInfoSystem;
-    static ref< IRadString > ms_pEmptyString;
+    static ref_srr< IRadTypeInfoSystem > s_pTheTypeInfoSystem;
+    static ref_srr< IRadString > ms_pEmptyString;
 
     //========================================================================
     // DataMembers
@@ -188,11 +188,11 @@ public:
 
     bool                    m_bLoadString;
 
-    ref< IRadObjectList >   m_xIOl_TypeInfo;
-    ref< IRadObjectList >   m_xIOl_Enum;
+    ref_srr< IRadObjectList >   m_xIOl_TypeInfo;
+    ref_srr< IRadObjectList >   m_xIOl_Enum;
 
     // string table used for all typeinfo string in typeinfo system
-    ref< radObjectBTree >  m_xIOt_StringTable;
+    ref_srr< radObjectBTree >  m_xIOt_StringTable;
 
 };
 
@@ -248,8 +248,8 @@ private:
     radMemoryAllocator      m_ThisAllocator;
 
     unsigned int            m_uHashedName;
-    ref< IRadObjectList >   m_xIOl_Methods;
-    ref< IRadObjectList >   m_xIOl_Enums;
+    ref_srr< IRadObjectList >   m_xIOl_Methods;
+    ref_srr< IRadObjectList >   m_xIOl_Enums;
 };
 
 //============================================================================
@@ -324,7 +324,7 @@ private:
 
     unsigned int                m_uHashedName;
 
-    ref< IRadObjectList >       m_lstIntLiteralsPtr;
+    ref_srr< IRadObjectList >       m_lstIntLiteralsPtr;
 };
 
 struct IRadTypeInfoParam
@@ -405,9 +405,9 @@ private:
 
     unsigned int                m_VTableOffset;
 
-    ref< IRadTypeInfoParam >    m_pReturnParam;
+    ref_srr< IRadTypeInfoParam >    m_pReturnParam;
 
-    ref< IRadObjectList >       m_lstParamsPtr;
+    ref_srr< IRadObjectList >       m_lstParamsPtr;
 
     unsigned int                m_uHashedName;
 
@@ -440,7 +440,7 @@ inline void IRadTypeInfoSystem::AddString( unsigned int uHashValue, const char *
 
 		if ( m_xIOt_StringTable->FindObject( uHashValue ) == NULL )
 		{
-			ref< IRadString > pString;
+			ref_srr< IRadString > pString;
 			::radStringCreate( & pString, m_ThisAllocator );
 			pString->Copy( szString );
 							
@@ -457,7 +457,7 @@ inline const char * IRadTypeInfoSystem::LookupString( unsigned int uHashValue )
 {
     if ( m_bLoadString )
     {
-        ref< IRadString > pFindString = static_cast< IRadString * >( m_xIOt_StringTable->FindObject( uHashValue ) );
+        ref_srr< IRadString > pFindString = static_cast< IRadString * >( m_xIOt_StringTable->FindObject( uHashValue ) );
 
         if ( pFindString == NULL )
         {
@@ -544,7 +544,7 @@ inline IRadTypeInfoIntLiteral * IRadTypeInfoEnum::GetIntLiteralPtrAt( unsigned i
 inline int IRadTypeInfoEnum::GetValueByName( const char * pName )
 {
     unsigned int uHashedName = ::radMakeKey32( pName );
-    ref< IRadTypeInfoIntLiteral > pIntLiteral;
+    ref_srr< IRadTypeInfoIntLiteral > pIntLiteral;
     for ( unsigned int i = 0; i < m_lstIntLiteralsPtr->GetSize( ); i ++ )
     {
         pIntLiteral = static_cast< IRadTypeInfoIntLiteral * >( m_lstIntLiteralsPtr->GetAt( i ) );
@@ -1029,7 +1029,7 @@ inline IRadTypeInfoEnum * IRadTypeInfo::GetEnumByIndex( unsigned int index )
 
 inline IRadTypeInfoEnum * IRadTypeInfo::GetEnumByName( const char * pName )
 {
-    ref< IRadTypeInfoEnum > pTypeInfoEnum = NULL;
+    ref_srr< IRadTypeInfoEnum > pTypeInfoEnum = NULL;
     unsigned int uEnumName = ::radMakeKey32( pName );
 
     for (unsigned int i = 0; i < m_xIOl_Enums->GetSize( ); i++)
@@ -1130,7 +1130,7 @@ inline IRadTypeInfoSystem::~IRadTypeInfoSystem( void )
 
 inline void IRadTypeInfoSystem::LoadTypeInfo( radMemoryAllocator alloc, const char * pFileName, TypeInfoLoadCallback *pCb, void * pUserData )
 {
-    ref< IRadTypeInfoLoader > xIRadTypeInfoLoader( ::radTypeInfoLoaderCreate( RADMEMORY_ALLOC_TEMP ) );
+    ref_srr< IRadTypeInfoLoader > xIRadTypeInfoLoader( ::radTypeInfoLoaderCreate( RADMEMORY_ALLOC_TEMP ) );
 
     xIRadTypeInfoLoader->Initialize( this, alloc, pFileName, pCb, pUserData );
 }
@@ -1213,7 +1213,7 @@ inline IRadTypeInfo * IRadTypeInfoSystem::GetTypeInfo( IRefCount * pIRefCount )
         // find the typeinfo with the same name
         //
         unsigned int nHashedName = ::radMakeKey32( interfaceName );
-        ref< IRadTypeInfo > pIRadTypeInfo = NULL;
+        ref_srr< IRadTypeInfo > pIRadTypeInfo = NULL;
 
         for( unsigned int i = 0; i < m_xIOl_TypeInfo->GetSize( ); i++ )
         {
@@ -1235,7 +1235,7 @@ inline IRadTypeInfo * IRadTypeInfoSystem::GetTypeInfo( IRefCount * pIRefCount )
 
 inline IRadTypeInfoMethod * IRadTypeInfoSystem::GetTypeInfoMethod( IRefCount * pIRefCount, const char * pMethodName )
 {
-    ref< IRadTypeInfo > xITi = GetTypeInfo( pIRefCount );
+    ref_srr< IRadTypeInfo > xITi = GetTypeInfo( pIRefCount );
 
     if ( xITi != NULL )
     {

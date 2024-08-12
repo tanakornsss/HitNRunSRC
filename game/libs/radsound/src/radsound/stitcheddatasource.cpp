@@ -183,7 +183,7 @@ void radSoundStitchedDataSource::Reset( void )
     {
         rAssert( m_refIRadSoundHalDataSourceCallback_Cancelled == NULL );
 
-        ref< IRadSoundHalDataSourceCallback > xIRshdsc = m_xIRadSoundHalDataSourceCallback;
+        ref_srr< IRadSoundHalDataSourceCallback > xIRshdsc = m_xIRadSoundHalDataSourceCallback;
         m_xIRadSoundHalDataSourceCallback = NULL;
 
         if ( m_LoadOutstanding == true && m_refIRadSoundHalDataSourceCallback_Cancelled == NULL )
@@ -295,7 +295,7 @@ void radSoundStitchedDataSource::OnDataSourceFramesLoaded( unsigned int actually
 
 	    if ( m_FramesLeftToRead == 0 )
 	    {
-		    ref< IRadSoundHalDataSourceCallback > xIRshdsc = m_xIRadSoundHalDataSourceCallback;
+		    ref_srr< IRadSoundHalDataSourceCallback > xIRshdsc = m_xIRadSoundHalDataSourceCallback;
 
 		    unsigned int fullReadSize = m_FullReadSize;
 
@@ -325,7 +325,7 @@ void radSoundStitchedDataSource::OnDataSourceFramesLoaded( unsigned int actually
         // Release the cancelled callback, this might free the memory we
         // are reading into.
 
-        ref< IRadSoundHalDataSourceCallback > refIRadSoundHalDataSourceCallback_Temp = m_refIRadSoundHalDataSourceCallback_Cancelled;
+        ref_srr< IRadSoundHalDataSourceCallback > refIRadSoundHalDataSourceCallback_Temp = m_refIRadSoundHalDataSourceCallback_Cancelled;
         m_refIRadSoundHalDataSourceCallback_Cancelled = NULL;
         
 		/* rDebugPrintf( "STITCHER: reset, callingback cancelled with zero, this [0x%x],  [0x%x] frames, callback: [0x%x]\n",

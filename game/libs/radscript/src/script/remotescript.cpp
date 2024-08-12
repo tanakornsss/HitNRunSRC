@@ -34,7 +34,7 @@ struct radRemoteScript
     HrcsResultCode Execute( const char * pObjectName, const char * pMemBlock, unsigned int size )
     {
            
-        ref< IRadNameSpace > m_xIRadNameSpace = ::radNameSpaceFindObjectNameSpace( pObjectName );
+        ref_srr< IRadNameSpace > m_xIRadNameSpace = ::radNameSpaceFindObjectNameSpace( pObjectName );
 
         if ( m_xIRadNameSpace != NULL )
         {
@@ -107,8 +107,8 @@ struct radRemoteScript
 
     radMemoryAllocator m_ThisAllocator;
 
-	ref< IRadRemoteCommand > m_xIRemoteCommand;
-    ref< IRadScript >            m_xIRadScript;
+	ref_srr< IRadRemoteCommand > m_xIRemoteCommand;
+    ref_srr< IRadScript >            m_xIRadScript;
 
     static radRemoteScript * s_pTheRemoteScript;
 };

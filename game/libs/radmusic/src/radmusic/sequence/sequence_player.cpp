@@ -1179,7 +1179,7 @@ bool _event_stream( sequence_player * p_sp, sequence_player_event * p_e_head )
                 p_e_window->stream.current_sample =
                     audio_format_frames_to_samples( ptr_audio_format, stream_start_frame );
                                     
-                ref< IRadSoundHalDataSource > ref_ds =
+                ref_srr< IRadSoundHalDataSource > ref_ds =
                     resource_manager_get_stream(
                         p_sp->p_resource_manager,
                         ptr_stream_window,

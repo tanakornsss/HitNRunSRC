@@ -136,7 +136,7 @@ IRefCount* radNameSpaceGetInstance
     radKey32 instanceKey
 )
 {
-    ref< IRadNameSpace > xIRadNameSpace( ::radNameSpaceGet( nameSpaceKey ) );
+    ref_srr< IRadNameSpace > xIRadNameSpace( ::radNameSpaceGet( nameSpaceKey ) );
     
     if ( xIRadNameSpace != NULL )
     {

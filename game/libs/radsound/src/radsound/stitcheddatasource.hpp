@@ -78,14 +78,14 @@ class radSoundStitchedDataSource
 		unsigned int m_FullReadSize;         // the complete read size.
         bool         m_LoadOutstanding;      // DataSourceCallback currently pending         
 
-        ref< IRadSoundHalDataSourceCallback > m_refIRadSoundHalDataSourceCallback_Cancelled;
+        ref_srr< IRadSoundHalDataSourceCallback > m_refIRadSoundHalDataSourceCallback_Cancelled;
 
 		void * m_pRadSoundStitchCallbackUserData;
 
 		IRadSoundStitchCallback	*			  m_pIRadSoundStitchCallback; // Weak
-		ref< IRadSoundHalAudioFormat >        m_xIRadSoundHalAudioFormat;
-		ref< IRadSoundHalDataSourceCallback > m_xIRadSoundHalDataSourceCallback;
-		ref< IRadSoundHalDataSource >         m_xIRadSoundHalDataSource;
+		ref_srr< IRadSoundHalAudioFormat >        m_xIRadSoundHalAudioFormat;
+		ref_srr< IRadSoundHalDataSourceCallback > m_xIRadSoundHalDataSourceCallback;
+		ref_srr< IRadSoundHalDataSource >         m_xIRadSoundHalDataSource;
 };
 
 #endif

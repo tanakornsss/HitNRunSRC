@@ -806,7 +806,7 @@ void radMovieTerminate2( void )
 
 void radMovieService2( void )
 {
-    ref< radMoviePlayerBink > pNext = radMoviePlayerBink::GetLinkedClassHead( );
+    ref_srr< radMoviePlayerBink > pNext = radMoviePlayerBink::GetLinkedClassHead( );
 
     while( pNext != NULL )
     {

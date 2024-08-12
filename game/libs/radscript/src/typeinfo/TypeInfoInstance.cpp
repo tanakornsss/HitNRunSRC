@@ -23,8 +23,8 @@ struct radTypeInfoInstanceMethod
     // Data Members
     //========================================================================
 
-    ref< IRefCount > m_xIRefCount;
-    ref< IRadTypeInfoMethod > m_xIRadTypeInfoMethod;
+    ref_srr< IRefCount > m_xIRefCount;
+    ref_srr< IRadTypeInfoMethod > m_xIRadTypeInfoMethod;
 
     IMPLEMENT_REFCOUNTED( "RadTypeInfoInstanceMethod" )
 

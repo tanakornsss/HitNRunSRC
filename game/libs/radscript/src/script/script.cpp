@@ -400,7 +400,7 @@ void radScriptLoadAndRunScriptSync
     rAssert( pScript != NULL );
     rAssert( pPog2 != NULL );
 
-    ref< IRadScript > xIRadScript( ::radScriptCreateScript( RADMEMORY_ALLOC_TEMP ) );
+    ref_srr< IRadScript > xIRadScript( ::radScriptCreateScript( RADMEMORY_ALLOC_TEMP ) );
 
 	xIRadScript->SetWarningLevel( warningLevel ),
     xIRadScript->SetContext( pPog2 );

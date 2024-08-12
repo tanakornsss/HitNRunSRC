@@ -74,8 +74,8 @@ struct radSoundHalListener
 
 		DS3DLISTENER m_Ds3dListener;
 
-		ref< IDirectSound3DListener > m_xIDirectSound3DListener;
-        ref< IKsPropertySet > m_xIKsPropertySet;
+		ref_srr< IDirectSound3DListener > m_xIDirectSound3DListener;
+        ref_srr< IKsPropertySet > m_xIKsPropertySet;
 
         bool m_EnvEffectsEnabled;
         unsigned int m_EnvAuxSend;

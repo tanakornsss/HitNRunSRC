@@ -45,9 +45,9 @@ class radSoundBufferLoaderWin
         void Start( void );
         void Finish( void );
 
-        ref< IRadSoundHalBufferLoadCallback >	m_xIRadSoundHalBufferLoadCallback;
-        ref< IRadSoundHalDataSource >			m_xIRadSoundHalDataSource;
-        ref< IRefCount >                        m_xIRefCount_Owner;
+        ref_srr< IRadSoundHalBufferLoadCallback >	m_xIRadSoundHalBufferLoadCallback;
+        ref_srr< IRadSoundHalDataSource >			m_xIRadSoundHalDataSource;
+        ref_srr< IRefCount >                        m_xIRefCount_Owner;
 
         unsigned int m_NumberOfFrames;
         void * m_pBuffer;

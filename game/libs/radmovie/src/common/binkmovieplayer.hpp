@@ -91,8 +91,8 @@ class radMoviePlayerBink
         void SetBinkVolume( void );
 		void SetBinkPan( void );
         
-        ref< IRadMovieRenderLoop > m_refIRadMovieRenderLoop;
-        ref< IRadMovieRenderStrategy > m_refIRadMovieRenderStrategy;
+        ref_srr< IRadMovieRenderLoop > m_refIRadMovieRenderLoop;
+        ref_srr< IRadMovieRenderStrategy > m_refIRadMovieRenderStrategy;
         IRadMoviePlayer2::State m_State;
         HBINK m_BinkHandle;
         float m_Volume;

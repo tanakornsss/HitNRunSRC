@@ -95,7 +95,7 @@ struct radload_radmusic_inventory : public radLoadInventory
         return m_ref_adapter;
     }  
         
-    ref< radload_composition_adapter > m_ref_adapter;
+    ref_srr< radload_composition_adapter > m_ref_adapter;
 };
 
 IRefCount * composition_data_loader::LoadData(

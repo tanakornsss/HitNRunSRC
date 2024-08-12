@@ -75,9 +75,9 @@ struct radTypeInfoLoader
     char                 * m_pTypeInfoMemory;
     unsigned int           m_TypeInfoMemorySize;
     
-    ref< IRadTypeInfoSystem > m_xIRadTypeInfoSystem;
+    ref_srr< IRadTypeInfoSystem > m_xIRadTypeInfoSystem;
 
-	ref< IRadFile >        m_pIRadFile;
+	ref_srr< IRadFile >        m_pIRadFile;
 
     bool                   m_bLoadEnum;
 
@@ -174,7 +174,7 @@ struct radTypeInfoLoader
         unsigned int nTotalEnumCount = 0;
         unsigned int enumNumber = 0;
 
-        ref< IRadTypeInfo > xIRadTypeInfo;
+        ref_srr< IRadTypeInfo > xIRadTypeInfo;
 
 		switch( (FileLoadState) (int) pUserData )
 		{
@@ -238,7 +238,7 @@ struct radTypeInfoLoader
                             // Return Arg 
                             // Arguments list
                             //
-                            ref< IRadTypeInfoMethod > xIRadTypeInfoMethod ( ::radTypeInfoMethodCreate( m_TypeInfoAllocator ) );
+                            ref_srr< IRadTypeInfoMethod > xIRadTypeInfoMethod ( ::radTypeInfoMethodCreate( m_TypeInfoAllocator ) );
 
                             char * pName = ReadString( &p );
 
@@ -255,7 +255,7 @@ struct radTypeInfoLoader
                             pParamType = ReadString( &p );
                             nIndLvl = radEndianLittleToPlat( *p ); p ++;
 
-                            ref< IRadTypeInfoParam > pRTIReturnParam( ::radTypeInfoParamCreate( m_TypeInfoAllocator ) );
+                            ref_srr< IRadTypeInfoParam > pRTIReturnParam( ::radTypeInfoParamCreate( m_TypeInfoAllocator ) );
                             pRTIReturnParam->Initialize( pParamName, pParamType, nIndLvl );
 
                             //
@@ -272,7 +272,7 @@ struct radTypeInfoLoader
                                 pParamType = ReadString( &p );
                                 nIndLvl = radEndianLittleToPlat( *p ); p ++;
 
-                                ref< IRadTypeInfoParam > pRTIParam( ::radTypeInfoParamCreate( m_TypeInfoAllocator ) );
+                                ref_srr< IRadTypeInfoParam > pRTIParam( ::radTypeInfoParamCreate( m_TypeInfoAllocator ) );
                                 pRTIParam->Initialize( pParamName, pParamType, nIndLvl );
                                 xIRadTypeInfoMethod->AddParamPtr( pRTIParam );
                             }
@@ -301,7 +301,7 @@ struct radTypeInfoLoader
 
                             unsigned int numEnum = *p; p += 1; numEnum = radEndianLittleToPlat( numEnum );
 
-                            ref< IRadTypeInfoEnum > xIRadTypeInfoEnum;
+                            ref_srr< IRadTypeInfoEnum > xIRadTypeInfoEnum;
 
                             if (m_bLoadEnum)
                             {
@@ -316,7 +316,7 @@ struct radTypeInfoLoader
 
                                 if (m_bLoadEnum)
                                 {
-                                    ref< IRadTypeInfoIntLiteral > pRTIIntLiteral( ::radTypeInfoIntLiteralCreate( m_TypeInfoAllocator ) );
+                                    ref_srr< IRadTypeInfoIntLiteral > pRTIIntLiteral( ::radTypeInfoIntLiteralCreate( m_TypeInfoAllocator ) );
                                     pRTIIntLiteral->Initialize( pIntLiteralName, nIntLiteralValue );
                                     xIRadTypeInfoEnum->AddIntLiteral( pRTIIntLiteral );
                                 }

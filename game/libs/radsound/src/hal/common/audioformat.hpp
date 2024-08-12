@@ -69,5 +69,5 @@ struct radSoundHalAudioFormat
 	float m_SampleRate;
 	float m_SampleSizeInBits; // e.g. 16 mono, 32 stereo
 
-	ref< IRefCount > m_xIRefCount_CustInfo;
+	ref_srr< IRefCount > m_xIRefCount_CustInfo;
 };

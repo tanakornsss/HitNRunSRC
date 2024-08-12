@@ -133,12 +133,12 @@ class RemoteCommandServer
 		// The linked list of Function Pointers and related data.
 		// The list will consist of FunctionNodes
 		//
-		ref< FunctionList > m_FunctionList;
+		ref_srr< FunctionList > m_FunctionList;
 
 		//
 		// We need a RemoteCommandTarget for communication purposes
 		//
-		ref< RemoteCommandTarget > m_RemoteCommandTarget;
+		ref_srr< RemoteCommandTarget > m_RemoteCommandTarget;
 
         radMemoryAllocator         m_Allocator;
 };
@@ -202,7 +202,7 @@ class RemoteCommandTarget : public IRadDbgComChannelStatusCallback,
 		//
 		// Channel used for communication.
 		//
-		ref< IRadDbgComChannel >    m_Channel;
+		ref_srr< IRadDbgComChannel >    m_Channel;
 
 		//
 		// Pointer to the Server

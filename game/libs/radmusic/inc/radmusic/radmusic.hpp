@@ -95,12 +95,12 @@ bool resource_manager_group_loaded(
     unsigned int buffer,
     const ods::group & ptr_group );
 
-ref< IRadSoundClip > resource_manager_get_clip(
+ref_srr< IRadSoundClip > resource_manager_get_clip(
     resource_manager *,
     const ods::clip & ptr_clip,
     unsigned int buffer );
     
-ref< IRadSoundHalDataSource > resource_manager_get_stream(
+ref_srr< IRadSoundHalDataSource > resource_manager_get_stream(
     resource_manager *,
     const ods::stream & ptr_stream,
     unsigned int buffer,

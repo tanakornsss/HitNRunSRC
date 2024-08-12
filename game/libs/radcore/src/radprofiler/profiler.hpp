@@ -107,22 +107,22 @@ private:
     //
     radMemoryAllocator          m_alloc;
 
-    ref< IRadMemoryPool >       m_pProfileSamplesPool;
+    ref_srr< IRadMemoryPool >       m_pProfileSamplesPool;
 
     //
     // hierarchy tree for all profile samples
     //
-    ref< radProfileSample >     m_pRootProfileSample;
+    ref_srr< radProfileSample >     m_pRootProfileSample;
 
     //
     // last unclosed profile sample
     //
-    ref< radProfileSample >     m_pLastUnClosedProfile;
+    ref_srr< radProfileSample >     m_pLastUnClosedProfile;
 
     //
     // last closed profile sample
     //
-    ref< radProfileSample >     m_pLastClosedProfile;
+    ref_srr< radProfileSample >     m_pLastClosedProfile;
 
     //
     // sorted profile sample list by name

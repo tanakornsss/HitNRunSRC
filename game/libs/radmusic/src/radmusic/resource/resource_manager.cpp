@@ -469,7 +469,7 @@ void resource_manager_delete(
     *pp_rm = 0;
 }
 
-ref< IRadSoundHalDataSource >
+ref_srr< IRadSoundHalDataSource >
     _construct_file_data_source(
         resource_manager * p_rm,
         const rsd_file & ptr_rsd_file,
@@ -484,7 +484,7 @@ ref< IRadSoundHalDataSource >
     strncat( file_path, file_name, 256 );
     strncat( file_path, ".rsd", 256 );
 
-    ref< IRadSoundRsdFileDataSource > refIRadSoundRsdFileDataSource =
+    ref_srr< IRadSoundRsdFileDataSource > refIRadSoundRsdFileDataSource =
         radSoundRsdFileDataSourceCreate( p_rm->ai_allocator );
             
     // revisit reading header!
@@ -938,7 +938,7 @@ bool resource_manager_group_loaded( resource_manager * p_rm, unsigned int buffer
     return false;
 }
 
-ref< IRadSoundClip > resource_manager_get_clip(
+ref_srr< IRadSoundClip > resource_manager_get_clip(
     resource_manager * p_rm,
     const ods::clip & ptr_clip,
     unsigned int buffer )
@@ -960,7 +960,7 @@ ref< IRadSoundClip > resource_manager_get_clip(
     return 0;
 }
 
-ref< IRadSoundHalDataSource > resource_manager_get_stream(
+ref_srr< IRadSoundHalDataSource > resource_manager_get_stream(
     resource_manager * p_rm,
     const ods::stream & ptr_stream,
     unsigned int buffer,
@@ -970,7 +970,7 @@ ref< IRadSoundHalDataSource > resource_manager_get_stream(
     
     rAssert( p_rb->state == resource_buffer_state_idle );
     
-    ref< IRadSoundHalDataSource > ref_IRadSoundHalDataSource;
+    ref_srr< IRadSoundHalDataSource > ref_IRadSoundHalDataSource;
     
     if ( stream_streamed( ptr_stream ) == true )
     {

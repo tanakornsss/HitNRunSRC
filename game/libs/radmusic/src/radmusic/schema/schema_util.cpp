@@ -387,9 +387,9 @@ bool composition_check_stream_constraints(
     return ok;
 }
 
-ref< IRadSoundHalAudioFormat > construct_audio_format( const audio_format & ptr_audio_format, bool targetFormat )
+ref_srr< IRadSoundHalAudioFormat > construct_audio_format( const audio_format & ptr_audio_format, bool targetFormat )
 {
-    ref< IRadSoundHalAudioFormat > ref_af =
+    ref_srr< IRadSoundHalAudioFormat > ref_af =
         radSoundHalAudioFormatCreate( memory::allocator( ) );
 
     IRadSoundHalAudioFormat::Encoding e = (IRadSoundHalAudioFormat::Encoding) audio_format_encoding( ptr_audio_format );

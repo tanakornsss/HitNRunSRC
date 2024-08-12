@@ -78,7 +78,7 @@ class radSoundHalBufferWin
 
         struct BufferData
         {
-            ref< IDirectSoundBuffer > m_refIDirectSoundBuffer;
+            ref_srr< IDirectSoundBuffer > m_refIDirectSoundBuffer;
 
             BufferData * m_pNext;
             BufferData * m_pPrev;
@@ -119,10 +119,10 @@ class radSoundHalBufferWin
         static BufferData * s_pLRUFreeBufferListHead;
         static BufferData * s_pLRUFreeBufferListTail;
 
-		static ref< IRadMemoryPool >    s_refIRadMemoryPool;
-		ref< IRadSoundHalAudioFormat >	m_refIRadSoundHalAudioFormat;
-		ref< IRadMemoryObject >			m_refIRadMemoryObject;
-        ref< IRadSoundHalBufferLoadCallback > m_refIRadSoundHalBufferLoadCallback;
+		static ref_srr< IRadMemoryPool >    s_refIRadMemoryPool;
+		ref_srr< IRadSoundHalAudioFormat >	m_refIRadSoundHalAudioFormat;
+		ref_srr< IRadMemoryObject >			m_refIRadMemoryObject;
+        ref_srr< IRadSoundHalBufferLoadCallback > m_refIRadSoundHalBufferLoadCallback;
 
         struct DebugInfo
         {

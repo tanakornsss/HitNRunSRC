@@ -52,11 +52,11 @@ struct radSoundDataCache
 
         IRadSoundDataCache::State m_State;
         radMemorySpace                    m_RadMemorySpace;
-        ref< IRadMemoryAllocator >        m_xIRadMemoryAllocator;
-        ref< IRadSoundHalAudioFormat >    m_xIRadSoundHalAudioFormat;
-        ref< IRadSoundMemorySpaceObject > m_xIRadSoundMemorySpaceObject;
-        ref< IRadSoundHalDataSource >     m_xIRadSoundHalDataSource;
-        ref< IRadString >                 m_xIRadString_Name;
+        ref_srr< IRadMemoryAllocator >        m_xIRadMemoryAllocator;
+        ref_srr< IRadSoundHalAudioFormat >    m_xIRadSoundHalAudioFormat;
+        ref_srr< IRadSoundMemorySpaceObject > m_xIRadSoundMemorySpaceObject;
+        ref_srr< IRadSoundHalDataSource >     m_xIRadSoundHalDataSource;
+        ref_srr< IRadString >                 m_xIRadString_Name;
 };
 
 inline IRadSoundHalAudioFormat * radSoundDataCache::GetAudioFormat( void )
@@ -103,8 +103,8 @@ struct radSoundDataCacheDataSource
 
         unsigned int m_StartFrame;
 
-        ref< radSoundDataCache >         m_xRadSoundDataCache;
-        ref< IRadSoundMemoryDataSource > m_xIRadSoundMemoryDataSource;
+        ref_srr< radSoundDataCache >         m_xRadSoundDataCache;
+        ref_srr< IRadSoundMemoryDataSource > m_xIRadSoundMemoryDataSource;
 
 };
 

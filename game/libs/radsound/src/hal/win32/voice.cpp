@@ -94,7 +94,7 @@ void radSoundHalVoiceWin::SetBuffer( IRadSoundHalBuffer * pIRadSoundHalBuffer )
     }
     m_xRadSoundHalBufferWin = NULL;
 
-	ref< IRadSoundHalAudioFormat > pOldIRadSoundHalAudioFormat = m_xIRadSoundHalAudioFormat;
+	ref_srr< IRadSoundHalAudioFormat > pOldIRadSoundHalAudioFormat = m_xIRadSoundHalAudioFormat;
     m_xIRadSoundHalAudioFormat = NULL;
 
     if ( pIRadSoundHalBuffer != NULL )
@@ -433,7 +433,7 @@ void radSoundHalVoiceWin::SetPanInternal( void )
 {
     if ( m_xIDirectSoundBuffer != NULL )
     {
-        ref< IDirectSound3DBuffer > xIDirectSound3DBuffer;
+        ref_srr< IDirectSound3DBuffer > xIDirectSound3DBuffer;
 
         HRESULT hr = m_xIDirectSoundBuffer->QueryInterface( IID_IDirectSound3DBuffer, (void**) & xIDirectSound3DBuffer );
 
@@ -489,7 +489,7 @@ void radSoundHalVoiceWin::SetPanInternal( void )
 	    {
 		    // AddRefHere or SetBuffer will fail
 
-		    ref< radSoundHalBufferWin > xSoundHalBufferTemp( m_xRadSoundHalBufferWin );
+		    ref_srr< radSoundHalBufferWin > xSoundHalBufferTemp( m_xRadSoundHalBufferWin );
 
 		    SetBuffer( m_xRadSoundHalBufferWin );
 	    }

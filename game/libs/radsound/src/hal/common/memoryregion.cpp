@@ -120,7 +120,7 @@ IRadSoundHalMemoryRegion * radSoundHalMemoryRegion::CreateChildRegion
 {
 	radSoundHalMemoryRegion * pRadSoundMemoryRegion = NULL;
 
-	ref< IRadMemoryObject > xIRadMemoryObject = NULL;
+	ref_srr< IRadMemoryObject > xIRadMemoryObject = NULL;
 
     radMemorySetAllocationName( pIdentifier );
 

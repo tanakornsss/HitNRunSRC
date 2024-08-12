@@ -359,7 +359,7 @@ class radRefCount : public radObject
 // Template: ref 
 //============================================================================
 
-template < class T > class ref
+template < class T > class ref_srr
 {
 	public:
 
@@ -383,12 +383,12 @@ template < class T > class ref
             ::radMemoryFree( pMemory );
         }
 
-		ref( )
+		ref_srr( )
 		{
 			m_pInterface = NULL;
 		}
 
-		ref( T * pInterface )
+		ref_srr( T * pInterface )
 		{
 			m_pInterface = pInterface;
 
@@ -398,7 +398,7 @@ template < class T > class ref
 			}
 		}
 
-        ref( const ref< T > & copy )
+        ref_srr( const ref_srr< T > & copy )
         { 
             m_pInterface = copy.m_pInterface;
 
@@ -408,7 +408,7 @@ template < class T > class ref
             }
         }
 
-		~ref( )
+		~ref_srr( )
 		{
 			if ( m_pInterface != NULL )
 			{
@@ -439,7 +439,7 @@ template < class T > class ref
             return m_pInterface;
         }
 
-        ref< T > & operator = ( const ref< T > & copy )
+        ref_srr< T > & operator = ( const ref_srr< T > & copy )
         {
             if ( copy != *this )
             {
@@ -498,11 +498,11 @@ template < class T > class ref
 // Template specialization on IRefCount
 //============================================================================
 template<>
-class ref< IRefCount >
+class ref_srr< IRefCount >
 {
 	public:
 
-		ref( )
+		ref_srr( )
 		{
 			m_pInterface = NULL;
 		}
@@ -512,7 +512,7 @@ class ref< IRefCount >
             ::radMemoryFree( pMemory );
         }
 
-		ref( IRefCount * pInterface )
+		ref_srr( IRefCount * pInterface )
 		{
 			m_pInterface = pInterface;
 
@@ -522,7 +522,7 @@ class ref< IRefCount >
 			}
 		}
 
-        ref( const ref< IRefCount > & copy )
+        ref_srr( const ref_srr< IRefCount > & copy )
         { 
             m_pInterface = copy.m_pInterface;
 
@@ -532,7 +532,7 @@ class ref< IRefCount >
             }
         }
 
-		~ref( )
+		~ref_srr( )
 		{
 			if ( m_pInterface != NULL )
 			{
@@ -563,7 +563,7 @@ class ref< IRefCount >
             return m_pInterface;
         }
 
-        ref< IRefCount > & operator = ( const ref< IRefCount > & copy )
+        ref_srr< IRefCount > & operator = ( const ref_srr< IRefCount > & copy )
         {
             if ( m_pInterface != NULL )
             {

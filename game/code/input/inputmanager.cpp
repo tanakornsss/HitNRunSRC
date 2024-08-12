@@ -437,7 +437,7 @@ void InputManager::EnumerateControllers( void )
 #ifndef RAD_WIN32
     ref< IRadController > xIC2;
 #else
-    ref< IRadController > radController[ NUM_CONTROLLERTYPES ];
+    ref_srr< IRadController > radController[ NUM_CONTROLLERTYPES ];
 #endif
 
     ReleaseAllControllers( );

@@ -28,7 +28,7 @@ extern "C" double fptodp( float );
 
 IRadMemoryAllocator * radProfileSample::s_pProfileSampleAllocator = NULL;
 
-ref< radProfileSample > radProfileSampleCreate( radMemoryAllocator alloc )
+ref_srr< radProfileSample > radProfileSampleCreate( radMemoryAllocator alloc )
 {
     return new( alloc ) radProfileSample( alloc );
 }

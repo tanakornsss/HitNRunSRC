@@ -176,7 +176,7 @@ void radSoundStreamPlayer::AllocateResources( IRadSoundHalAudioFormat * pIRadSou
 	rAssert( ( sizeInBytes % pIRadSoundHalAudioFormat->GetFrameSizeInBytes( ) ) == 0 );	
 	rAssert( m_xInitializeInfo_MemRegion != NULL );
 
-	ref< IRadMemoryObject > xIRadMemoryObject;
+	ref_srr< IRadMemoryObject > xIRadMemoryObject;
 
 	m_xInitializeInfo_MemRegion->CreateMemoryObject(
         & xIRadMemoryObject, sizeInBytes, m_xIRadString_Name->GetChars( ) );
@@ -185,7 +185,7 @@ void radSoundStreamPlayer::AllocateResources( IRadSoundHalAudioFormat * pIRadSou
 
 	if ( xIRadMemoryObject != NULL )
 	{
-		ref< IRadSoundHalBuffer > xIRadSoundHalBuffer = ::radSoundHalBufferCreate( GetThisAllocator( ) );
+		ref_srr< IRadSoundHalBuffer > xIRadSoundHalBuffer = ::radSoundHalBufferCreate( GetThisAllocator( ) );
 		xIRadSoundHalBuffer->Initialize( pIRadSoundHalAudioFormat, xIRadMemoryObject, sizeInFrames, true, true );
 		m_xIRadSoundHalVoice->SetBuffer( xIRadSoundHalBuffer );
 	}
@@ -576,7 +576,7 @@ void radSoundStreamPlayer::ServiceLoad( void )
     // If we currently have an outstanding load or clear, we can't issue
     // another one until it is done so just do nothing for now.
 
-    ref< IRadSoundHalAudioFormat > xIRadSoundHalAudioFormat = m_xIRadSoundHalVoice->GetBuffer( )->GetFormat( );
+    ref_srr< IRadSoundHalAudioFormat > xIRadSoundHalAudioFormat = m_xIRadSoundHalVoice->GetBuffer( )->GetFormat( );
 
 	unsigned int bufferSizeInFrames = m_xIRadSoundHalVoice->GetBuffer( )->GetSizeInFrames( );
 

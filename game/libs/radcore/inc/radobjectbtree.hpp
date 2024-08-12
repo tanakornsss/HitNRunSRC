@@ -34,7 +34,7 @@
 struct radObjectBTreeNode
 {
     radKey32 m_key;
-    ref< IRefCount > m_xIObject;
+    ref_srr< IRefCount > m_xIObject;
 
     short mLeftNode;
     short mRightNode;

@@ -73,7 +73,7 @@ bool composition_check_constraints(
     char * p_error_message,
     unsigned int len );
 
-ref< IRadSoundHalAudioFormat > construct_audio_format( const ods::audio_format &, bool targetFormat );
+ref_srr< IRadSoundHalAudioFormat > construct_audio_format( const ods::audio_format &, bool targetFormat );
 
 unsigned int audio_format_samples_to_milliseconds( const ods::audio_format &, unsigned int samples );
 unsigned int audio_format_samples_to_frames( const ods::audio_format &, unsigned int samples );

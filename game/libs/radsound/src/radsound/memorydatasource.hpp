@@ -57,10 +57,10 @@ struct radSoundMemoryDataSource
         unsigned int m_NumberOfFramesRead;
         unsigned int m_FramesToRead;
 
-        ref< IRadSoundMemorySpaceObject >       m_xIRadSoundMemorySpaceObject;
-        ref< IRadSoundHalAudioFormat >          m_xIRadSoundHalAudioFormat;
-        ref< IRadMemorySpaceCopyRequest >       m_xIRadMemorySpaceCopyRequest;
-        ref< IRadSoundHalDataSourceCallback >   m_xIRadSoundHalDataSourceCallback;
+        ref_srr< IRadSoundMemorySpaceObject >       m_xIRadSoundMemorySpaceObject;
+        ref_srr< IRadSoundHalAudioFormat >          m_xIRadSoundHalAudioFormat;
+        ref_srr< IRadMemorySpaceCopyRequest >       m_xIRadMemorySpaceCopyRequest;
+        ref_srr< IRadSoundHalDataSourceCallback >   m_xIRadSoundHalDataSourceCallback;
 
 };
 

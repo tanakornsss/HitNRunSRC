@@ -198,7 +198,7 @@ void radSoundClip::SetState( IRadSoundClip::State state )
 
 		unsigned int initialBufferSizeInFrames = 0;
 		unsigned int initialBufferMemorySizeInBytes = 0;
-		ref< IRadSoundHalAudioFormat > xIRadSoundHalAudioFormat = NULL;
+		ref_srr< IRadSoundHalAudioFormat > xIRadSoundHalAudioFormat = NULL;
 
 		if( m_xIRadSoundHalDataSource->GetRemainingFrames( ) >= MIN_FRAMES )
 		{
@@ -237,7 +237,7 @@ void radSoundClip::SetState( IRadSoundClip::State state )
 
 		// Set up the new buffer's memory object
 
-		ref< IRadSoundHalMemoryRegion > xIRadSoundHalMemoryRegion;
+		ref_srr< IRadSoundHalMemoryRegion > xIRadSoundHalMemoryRegion;
 
 		// If we weren't provided with a memory region, we are
 		// perfectly capable for grabbing our own
@@ -251,7 +251,7 @@ void radSoundClip::SetState( IRadSoundClip::State state )
 			xIRadSoundHalMemoryRegion = ::radSoundHalSystemGet( )->GetRootMemoryRegion( );
 		}
 
-		ref< IRadMemoryObject > xIRadMemoryObject;
+		ref_srr< IRadMemoryObject > xIRadMemoryObject;
 		xIRadSoundHalMemoryRegion->CreateMemoryObject( & xIRadMemoryObject,
 				initialBufferMemorySizeInBytes,
                 m_xIRadString_Name->GetChars( ) );

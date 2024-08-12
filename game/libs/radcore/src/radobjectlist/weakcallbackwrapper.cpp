@@ -130,7 +130,7 @@ void radWeakCallbackRegister
     void* pUserData
 )
 {
-    ref< IRadWeakCallbackWrapper > xIWcw;
+    ref_srr< IRadWeakCallbackWrapper > xIWcw;
     ::radWeakCallbackWrapperCreate( & xIWcw, allocator );
     
     xIWcw->SetWeakInterface( (void*) pCallback );
@@ -160,7 +160,7 @@ void radWeakCallbackUnregister
     void* pUserData
 )
 {
-    ref< IRadWeakCallbackWrapper > xIWcw;
+    ref_srr< IRadWeakCallbackWrapper > xIWcw;
     
     for
     (

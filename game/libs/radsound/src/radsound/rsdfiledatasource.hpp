@@ -94,9 +94,9 @@ struct radSoundRsdFileDataSource
 
 		} m_StateInfo;
 
-		ref< IRadSoundHalDataSourceCallback > m_refIRadSoundHalDataSourceCallback;
-		ref< IRadSoundHalAudioFormat >        m_refIRadSoundHalAudioFormat;
-		ref< IRadFile >                       m_refIRadFile;
+		ref_srr< IRadSoundHalDataSourceCallback > m_refIRadSoundHalDataSourceCallback;
+		ref_srr< IRadSoundHalAudioFormat >        m_refIRadSoundHalAudioFormat;
+		ref_srr< IRadFile >                       m_refIRadFile;
 		
 		char fileName[ 64 ];
 };

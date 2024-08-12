@@ -125,9 +125,9 @@ struct IRadScript
 
     unsigned int            m_FileSize;
     char *                  m_pFileMemory;
-    ref< IRadNameSpace >    m_xIRadNameSpace_Context;
+    ref_srr< IRadNameSpace >    m_xIRadNameSpace_Context;
 
-    ref< IRadFile >         m_xIRadFile;
+    ref_srr< IRadFile >         m_xIRadFile;
 
     ScriptLoadCallback *    m_pScriptLoadCallback;
     void *                  m_pScriptLoadCallbackUserData;
@@ -156,8 +156,8 @@ struct IRadScript
     char *                  m_szCurrToken;
 
 
-    ref< IRefCount >        m_xCurrObjectInstance;
-    ref< IRadTypeInfo >     m_xCurrObjectTypeInfo;
+    ref_srr< IRefCount >        m_xCurrObjectInstance;
+    ref_srr< IRadTypeInfo >     m_xCurrObjectTypeInfo;
 };
 
 inline bool IRadScript::AttemptMatch( const unsigned int nTokenID )
@@ -551,7 +551,7 @@ inline bool IRadScript::OnBeginMethod(
                             const int nParamSize
                             )
 {
-	ref< IRadTypeInfoMethod > xIRadTypeInfoMethod;
+	ref_srr< IRadTypeInfoMethod > xIRadTypeInfoMethod;
 
 	if ( m_xCurrObjectTypeInfo != NULL )
 	{
@@ -574,7 +574,7 @@ inline bool IRadScript::OnBeginMethod(
 
     m_pCurrMethodName = pMethodName;
 
-    ref< IRadTypeInfoParam > pIRadTypeInfoParam;
+    ref_srr< IRadTypeInfoParam > pIRadTypeInfoParam;
 
     // stack of parameters pointer
     unsigned int nInvokeParams[ MAX_PARAM_SIZE ];

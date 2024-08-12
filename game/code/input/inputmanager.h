@@ -314,7 +314,7 @@ private:
 
     static InputManager* spInstance;
 
-    ref< IRadControllerSystem > mxIControllerSystem2;
+    ref_srr< IRadControllerSystem > mxIControllerSystem2;
 
     UserController mControllerArray[ Input::MaxControllers ];
 
@@ -411,4 +411,4 @@ inline bool InputManager::IsRumbleEnabled() const
 }
 
 
-#endif
+#endif ;

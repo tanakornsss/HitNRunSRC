@@ -124,7 +124,7 @@ struct radObjectListNode
 			::radMemoryFree( allocator, pNode );
 		}
 
-		ref< IRefCount > m_xIObject;
+		ref_srr< IRefCount > m_xIObject;
 		radObjectListNode * m_pNext;
 };
 
@@ -149,7 +149,7 @@ struct IRadObjectList
     radObjectListNode * m_pTail;
     radObjectListNode * m_pSearch;
 
-	ref< IRadMemoryPool > m_xIRadMemoryPool;
+	ref_srr< IRadMemoryPool > m_xIRadMemoryPool;
 	
     IMPLEMENT_REFCOUNTED( "IRadObjectList" )
 

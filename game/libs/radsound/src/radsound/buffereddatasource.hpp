@@ -79,7 +79,7 @@ struct radSoundBufferedDataSource
 		// Buffer info
 
 		radMemorySpace	   m_FrameBufferMemorySpace;
-		ref< IRadMemoryAllocator > m_xIRadMemoryAllocator_FrameBuffer;
+		ref_srr< IRadMemoryAllocator > m_xIRadMemoryAllocator_FrameBuffer;
 
 		char *			m_pFrameBuffer;
 		unsigned int	m_BufferSizeInFrames;
@@ -94,8 +94,8 @@ struct radSoundBufferedDataSource
 		unsigned int    m_CurrentFramesToCopy;
 		char *			m_pCurrentCopyPointer;
 		radMemorySpace	m_CopyMemorySpace;
-		ref< IRadMemorySpaceCopyRequest > m_xICopyRequest;
-		ref< IRadSoundHalDataSourceCallback > m_xIRadSoundHalDataSourceCallback;
+		ref_srr< IRadMemorySpaceCopyRequest > m_xICopyRequest;
+		ref_srr< IRadSoundHalDataSourceCallback > m_xIRadSoundHalDataSourceCallback;
 
 		// Read info
 
@@ -103,8 +103,8 @@ struct radSoundBufferedDataSource
 		bool m_OutOfData;
         float m_LowWaterMark;
 
-		ref< IRadSoundHalAudioFormat > m_xIRadSoundHalAudioFormat;
-		ref< IRadSoundHalDataSource >  m_xIRadSoundHalDataSource;
-        ref< IRadSoundHalDataSource >  m_xIRadSoundHalDataSource_ReInit;
-        ref< IRadString >              m_xIRadString_Name;
+		ref_srr< IRadSoundHalAudioFormat > m_xIRadSoundHalAudioFormat;
+		ref_srr< IRadSoundHalDataSource >  m_xIRadSoundHalDataSource;
+        ref_srr< IRadSoundHalDataSource >  m_xIRadSoundHalDataSource_ReInit;
+        ref_srr< IRadString >              m_xIRadString_Name;
 };

@@ -28,7 +28,7 @@ struct radTypeInfoDistributor
 
     radMemoryAllocator m_ThisAllocator;
 
-    ref< IRadObjectList > m_xIOl_InstanceMethods;
+    ref_srr< IRadObjectList > m_xIOl_InstanceMethods;
 
     //========================================================================
     // radTypeInfoDistributor::radTypeInfoDistributor
@@ -60,7 +60,7 @@ struct radTypeInfoDistributor
         rAssert( pIRefCount != NULL );
         rAssert( pMethodName != NULL );
 
-        ref< IRadTypeInfoInstanceMethod > xITiim;
+        ref_srr< IRadTypeInfoInstanceMethod > xITiim;
 
         xITiim = ::radTypeInfoCreateInstanceMethod( pIRefCount, pMethodName, m_ThisAllocator );
 
@@ -82,7 +82,7 @@ struct radTypeInfoDistributor
 
     virtual void RemoveObject( IRefCount * pIObject, const char * pPropery )
     {
-        ref< IRefCount >                 xIRefCount;
+        ref_srr< IRefCount >                 xIRefCount;
 
         IRadTypeInfoInstanceMethod * pIRadTypeInfoInstanceMethod;
         for( unsigned int i = 0; i < m_xIOl_InstanceMethods->GetSize( ); i ++ )

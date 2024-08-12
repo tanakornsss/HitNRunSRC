@@ -766,7 +766,7 @@ class radControllerInputPointDirectInput
 
         if ( pCallback != NULL && m_xIOl_Callbacks != NULL )
         {
-            ref< IRadWeakCallbackWrapper > xIWcr;
+            ref_srr< IRadWeakCallbackWrapper > xIWcr;
 
             ::radWeakCallbackWrapperCreate( & xIWcr, g_ControllerSystemAllocator );
 
@@ -985,7 +985,7 @@ class radControllerInputPointDirectInput
     DIDEVICEOBJECTINSTANCE m_DirectInputDeviceObjectInstance;
     unsigned int m_ActualOffset;
 
-    ref< IRadObjectList > m_xIOl_Callbacks;
+    ref_srr< IRadObjectList > m_xIOl_Callbacks;
 };
 
 
@@ -1748,7 +1748,7 @@ class radControllerDirectInput
     // radControllerDirectInput::radControllerDirectInput
     //========================================================================
 
-    radControllerDirectInput( LPCDIDEVICEINSTANCE pDidi, ref< IDirectInput8 > xIDirectInput8 )
+    radControllerDirectInput( LPCDIDEVICEINSTANCE pDidi, ref_srr< IDirectInput8 > xIDirectInput8 )
         :
         radRefCount( 0 ),
         m_InputBufferSize( 0 ),
@@ -1879,7 +1879,7 @@ class radControllerDirectInput
                         // when it starts up.
                         //
 
-                        ref< IRadPlatform > xIWin32Platform;
+                        ref_srr< IRadPlatform > xIWin32Platform;
                         xIWin32Platform = radPlatformGet(  );
                         rAssert( xIWin32Platform != NULL );
 
@@ -2102,11 +2102,11 @@ class radControllerDirectInput
 
     DIDEVICEINSTANCE m_DirectInputDeviceInstance;
 
-    ref< IDirectInput8 >       m_xIDirectInput8;
-    ref< IDirectInputDevice8 > m_xIDirectInputDevice8;
-    ref< IRadObjectList >        m_xIOl_InputPoints;
-    ref< IRadObjectList >        m_xIOl_OutputPoints;
-    ref< IRadString >            m_xIString_Location;
+    ref_srr< IDirectInput8 >       m_xIDirectInput8;
+    ref_srr< IDirectInputDevice8 > m_xIDirectInputDevice8;
+    ref_srr< IRadObjectList >        m_xIOl_InputPoints;
+    ref_srr< IRadObjectList >        m_xIOl_OutputPoints;
+    ref_srr< IRadString >            m_xIString_Location;
 };
 
 class radControllerSystemDirectInput
@@ -2200,7 +2200,7 @@ class radControllerSystemDirectInput
 
         if ( m_xIOl_Callbacks != NULL )
         {
-            ref< IRadWeakInterfaceWrapper > xIWir;
+            ref_srr< IRadWeakInterfaceWrapper > xIWir;
 
             ::radWeakInterfaceWrapperCreate( & xIWir, g_ControllerSystemAllocator );
 
@@ -2554,7 +2554,7 @@ class radControllerSystemDirectInput
         //
         // We need the instance and main window handle from the platform
         //
-        ref< IRadPlatform > xIWin32Platform;
+        ref_srr< IRadPlatform > xIWin32Platform;
         xIWin32Platform = radPlatformGet(  );
 
 
@@ -2706,11 +2706,11 @@ class radControllerSystemDirectInput
     IRadControllerConnectionChangeCallback* m_pWIControllerConnectionChangeCallback2;
     IRadControllerConnectionChangeCallback* m_DefaultConnectionChangeCallback;
 
-    ref< IDirectInput8 >    m_xIDirectInput8;
-    ref< IRadObjectList >   m_xIOl_Controllers;
-    ref< IRadObjectList >   m_xIOl_Callbacks;
-    ref< IRadTimer >        m_xITimer;
-    ref< IRadTimerList >    m_xITimerList;
+    ref_srr< IDirectInput8 >    m_xIDirectInput8;
+    ref_srr< IRadObjectList >   m_xIOl_Controllers;
+    ref_srr< IRadObjectList >   m_xIOl_Callbacks;
+    ref_srr< IRadTimer >        m_xITimer;
+    ref_srr< IRadTimerList >    m_xITimerList;
 };
 
 

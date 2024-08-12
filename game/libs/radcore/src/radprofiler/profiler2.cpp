@@ -99,7 +99,7 @@ radProfileSample * radProfiler::InsertChildProfileSample( const char * pProfileN
     //
     m_pProfileSampleArrayByHashedName[ m_uProfileSampleArraySize - 1 ].HashedName = radMakeKey( pProfileName );
 
-    ref< radProfileSample > pProfileSample = radProfileSampleCreate( m_alloc );
+    ref_srr< radProfileSample > pProfileSample = radProfileSampleCreate( m_alloc );
     rAssertMsg( pProfileSample, "radProfiler: Error: Cannot create profile sample instance. ???Outof memory???" );
 
     m_pProfileSampleArrayByHashedName[ m_uProfileSampleArraySize - 1 ].pSample = pProfileSample;

@@ -196,7 +196,7 @@ class radPlatform : public IRadPlatform
 
         if ( pICallback != NULL  )
         {
-            ref< IRadWeakInterfaceWrapper > xIWir;
+            ref_srr< IRadWeakInterfaceWrapper > xIWir;
 
             radWeakInterfaceWrapperCreate( &xIWir );
 
@@ -238,7 +238,7 @@ class radPlatform : public IRadPlatform
     HWND        m_hMainWindow;
     HINSTANCE   m_hInstance;    
     WNDPROC     m_pOldWindowProcedure;
-    ref< IRadObjectList > m_xIOl_MainWindowMessageCallbacks;
+    ref_srr< IRadObjectList > m_xIOl_MainWindowMessageCallbacks;
 
 #endif
 #ifdef RAD_XBOX

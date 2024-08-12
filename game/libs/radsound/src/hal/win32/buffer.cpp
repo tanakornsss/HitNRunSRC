@@ -21,7 +21,7 @@ const unsigned int RADSOUNDHAL_BUFFER_CHANNEL_ALIGNMENT = 1;
 
 radSoundHalBufferWin * radSoundHalBufferWin::s_pLinkedClassHead = NULL;
 radSoundHalBufferWin * radSoundHalBufferWin::s_pLinkedClassTail = NULL;
-ref< IRadMemoryPool > radSoundHalBufferWin::s_refIRadMemoryPool = NULL;
+ref_srr< IRadMemoryPool > radSoundHalBufferWin::s_refIRadMemoryPool = NULL;
 radSoundHalBufferWin::BufferData * radSoundHalBufferWin::s_pLRUFreeBufferListHead = NULL;
 radSoundHalBufferWin::BufferData * radSoundHalBufferWin::s_pLRUFreeBufferListTail = NULL;
 unsigned int radSoundHalBufferWin::DebugInfo::s_TotalFreeCount = 0;
@@ -352,7 +352,7 @@ void radSoundHalBufferWin::GetBufferData
     {
         // Otherwise prepare a new one
 
-        ref< IDirectSoundBuffer > pIDirectSoundBuffer = NULL;
+        ref_srr< IDirectSoundBuffer > pIDirectSoundBuffer = NULL;
         CreateDirectSoundBuffer( positional, & pIDirectSoundBuffer );
         rAssert( pIDirectSoundBuffer != NULL );
 

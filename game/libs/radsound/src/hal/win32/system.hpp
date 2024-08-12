@@ -63,10 +63,10 @@ class radSoundHalSystem
         void *          m_pSoundMemory;
         unsigned int    m_NumAuxSends;
 
-        ref< IDirectSound >            m_xIDirectSound;
-        ref< IDirectSoundBuffer >      m_xIDirectSoundBuffer_Primary;
-        ref< IDirectSound3DListener >  m_xIDirectSound3DListener;
-        ref< IRadSoundHalEffect >      m_refIRadSoundHalEffect[ RSD_SYSTEM_MAX_AUX_SENDS ];
+        ref_srr< IDirectSound >            m_xIDirectSound;
+        ref_srr< IDirectSoundBuffer >      m_xIDirectSoundBuffer_Primary;
+        ref_srr< IDirectSound3DListener >  m_xIDirectSound3DListener;
+        ref_srr< IRadSoundHalEffect >      m_refIRadSoundHalEffect[ RSD_SYSTEM_MAX_AUX_SENDS ];
 
         unsigned int    m_LastServiceTime;
         bool            m_EnableStickyFocus;

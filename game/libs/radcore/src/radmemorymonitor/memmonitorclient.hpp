@@ -361,7 +361,7 @@ private:
 	//
 	// debug communication channel stuff
 	//
-    ref< IRadDbgComChannel >    m_pChannel;
+    ref_srr< IRadDbgComChannel >    m_pChannel;
     bool                        m_bAttached;
     bool                        m_bSuspended;
     bool                        m_bSendSuspendedState;

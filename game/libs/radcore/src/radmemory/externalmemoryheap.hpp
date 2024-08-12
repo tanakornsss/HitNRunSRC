@@ -115,7 +115,7 @@ class ExternalMemoryHeap
         ExternalMemoryObject * m_pEmo_First;
         ExternalMemoryObject * m_pEmo_Last;
 
-        ref< IRadMemoryPool > refIRadMemoryPool_Emo;
+        ref_srr< IRadMemoryPool > refIRadMemoryPool_Emo;
 
     friend class MemorySystem;
     friend class ExternalMemoryObject;

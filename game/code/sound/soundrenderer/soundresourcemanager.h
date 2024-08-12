@@ -135,7 +135,7 @@ private:
     // Store all allocated resources (referenced by the resource's
     // address cast to a radkey)
     //
-    ref< radObjectBTree >                  m_xIOL_AllocatedResources;
+    ref_srr< radObjectBTree >                  m_xIOL_AllocatedResources;
 
     //
     // Are the resources locked down?

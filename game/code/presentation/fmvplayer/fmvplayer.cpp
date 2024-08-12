@@ -338,8 +338,8 @@ void FMVPlayer::Initialize( radMemoryAllocator Allocator )
     //
     // This is where all the memory will be allocated.
     //
-    ref< IRadMovieRenderLoop > refIRadMovieRenderLoop = this;
-    ref< IRadMovieRenderStrategy > refIRadMovieRenderStrategy = 
+    ref_srr< IRadMovieRenderLoop > refIRadMovieRenderLoop = this;
+    ref_srr< IRadMovieRenderStrategy > refIRadMovieRenderStrategy = 
         ::radMovieSimpleFullScreenRenderStrategyCreate( Allocator );
 
     // Note that there is a problem if we start creating multiple movie players

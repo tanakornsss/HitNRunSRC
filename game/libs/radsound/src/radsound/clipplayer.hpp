@@ -95,8 +95,8 @@ class radSoundClipPlayer
 	    
 	    float m_Trim;
 
-	    ref< radSoundClip >         m_xRadSoundClip;
-	    ref< IRadSoundHalVoice > 	m_xIRadSoundHalVoice;
+	    ref_srr< radSoundClip >         m_xRadSoundClip;
+	    ref_srr< IRadSoundHalVoice > 	m_xIRadSoundHalVoice;
 
     friend IRadSoundClipPlayer * radSoundClipPlayerCreate( radMemoryAllocator allocator );
 };

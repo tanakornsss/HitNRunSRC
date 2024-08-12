@@ -59,9 +59,9 @@ const unsigned int ParserConst::TOK_IREFCOUNT     = ParserConst::GetTokenID( "IR
 // Component: IRadTypeInfoSystem
 //========================================================================
 
-ref< IRadString > IRadTypeInfoSystem::ms_pEmptyString = NULL;
+ref_srr< IRadString > IRadTypeInfoSystem::ms_pEmptyString = NULL;
 
-ref< IRadTypeInfoSystem > IRadTypeInfoSystem::s_pTheTypeInfoSystem = NULL;
+ref_srr< IRadTypeInfoSystem > IRadTypeInfoSystem::s_pTheTypeInfoSystem = NULL;
 
 //============================================================================
 // ::radTypeInfoSystemGet

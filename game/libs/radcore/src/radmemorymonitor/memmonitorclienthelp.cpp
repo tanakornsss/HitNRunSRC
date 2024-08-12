@@ -337,7 +337,7 @@ void radMemoryMonitorClient::SendMemoryBlock128Byte( radMemorySpace memorySpace,
     pData->memStartPos    = radPlatformEndian32( memStartPos );
     pData->memLength      = radPlatformEndian32( memLength );
 
-    ref< IRadMemorySpaceCopyRequest > pCopy = ::radMemorySpaceCopyAsync( pData->memBlock, radMemorySpace_Local, reinterpret_cast< void * >( memStartPos ), memorySpace, memLength );
+    ref_srr< IRadMemorySpaceCopyRequest > pCopy = ::radMemorySpaceCopyAsync( pData->memBlock, radMemorySpace_Local, reinterpret_cast< void * >( memStartPos ), memorySpace, memLength );
 
     if ( pCopy != NULL )
     {

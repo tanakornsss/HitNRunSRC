@@ -157,15 +157,15 @@ private:
     //
     radProfileSample *  m_pParentProfileSample;
 
-    ref< radProfileSample > m_pFirstChildProfileSample;
+    ref_srr< radProfileSample > m_pFirstChildProfileSample;
 
-    ref< radProfileSample >  m_pNextSiblingProfileSample;
+    ref_srr< radProfileSample >  m_pNextSiblingProfileSample;
 
     radProfileSample *  m_pPrevSiblingProfileSample;
 
 };
 
-ref< radProfileSample > radProfileSampleCreate( radMemoryAllocator alloc = RADMEMORY_ALLOC_DEFAULT );
+ref_srr< radProfileSample > radProfileSampleCreate( radMemoryAllocator alloc = RADMEMORY_ALLOC_DEFAULT );
 
 inline void* radProfileSample::operator new( size_t size, void* p )
 {

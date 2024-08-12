@@ -113,7 +113,7 @@ radSoundHalListener::radSoundHalListener
         // Create the buffer and if possible get the property interface
 
         HRESULT hr;
-        ref< IDirectSoundBuffer > refIDirectSoundBuffer = NULL;
+        ref_srr< IDirectSoundBuffer > refIDirectSoundBuffer = NULL;
         hr = radSoundHalSystem::GetInstance( )->GetDirectSound( )->CreateSoundBuffer( 
             & desc, 
             & refIDirectSoundBuffer, 

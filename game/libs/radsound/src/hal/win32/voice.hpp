@@ -86,14 +86,14 @@ class radSoundHalVoiceWin
 		float m_MuteFactor;
 		float m_Trim;
 
-		ref< radSoundHalBufferWin >		m_xRadSoundHalBufferWin;
-		ref< IRadSoundHalAudioFormat >	m_xIRadSoundHalAudioFormat;
+		ref_srr< radSoundHalBufferWin >		m_xRadSoundHalBufferWin;
+		ref_srr< IRadSoundHalAudioFormat >	m_xIRadSoundHalAudioFormat;
 
         radSoundHalBufferWin::BufferData * m_pBufferData;
-        ref< IDirectSound3DBuffer >		m_xIDirectSound3dBuffer;
-		ref< IDirectSoundBuffer >		m_xIDirectSoundBuffer;
+        ref_srr< IDirectSound3DBuffer >		m_xIDirectSound3dBuffer;
+		ref_srr< IDirectSoundBuffer >		m_xIDirectSoundBuffer;
 
-		ref< radSoundHalPositionalGroup > m_xRadSoundHalPositionalGroup;
+		ref_srr< radSoundHalPositionalGroup > m_xRadSoundHalPositionalGroup;
 };
 
 #endif // VOICE_HPP

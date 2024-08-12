@@ -72,7 +72,7 @@ void radSoundMemoryDataSource::Update( unsigned int elapsedTime )
 
         m_NumberOfFramesRead += m_FramesToRead;
 
-        ref< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
+        ref_srr< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
         m_xIRadSoundHalDataSourceCallback = NULL;
         m_xIRadMemorySpaceCopyRequest = NULL;
         unsigned int framesToRead = m_FramesToRead;

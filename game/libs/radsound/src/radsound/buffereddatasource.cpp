@@ -340,7 +340,7 @@ void radSoundBufferedDataSource::ServiceCopy( void )
 			{
 				unsigned int framesCopied = m_FullCopySize - m_FramesLeftToCopy;
 
-				ref< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
+				ref_srr< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
 
 				// Reset copy info
 
@@ -398,7 +398,7 @@ void radSoundBufferedDataSource::ServiceCopy( void )
 		}
 		else if ( m_OutOfData || m_State == REINITIALIZING )
 		{
-			ref< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
+			ref_srr< IRadSoundHalDataSourceCallback > xIRshdsc( m_xIRadSoundHalDataSourceCallback );
 
             unsigned int framesCopiedSoFar = m_FullCopySize - m_FramesLeftToCopy;
 
